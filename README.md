@@ -1,12 +1,11 @@
 # Hi there! <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="35" />
 
 <p align="center">
-<a href="https://twitter.com/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" height="30" width="30" /></a>&nbsp;
-<a href="https://www.linkedin.com/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" height="30" width="30" /></a>&nbsp;
+<a href="https://www.linkedin.com/in/omar-rashad-457630358/?skipRedirect=true" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" height="30" width="30" /></a>&nbsp;
 <a href="https://discord.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/discord.svg" height="40" width="30" /></a>&nbsp;
 </p>
 
-![](https://camo.githubusercontent.com/992babdffd8c74a1502de375fbdf7e4d54773242/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f53576f536b4e36447854737a71494b4571762f67697068792e676966)
+![Animated GitHub Header](https://media.giphy.com/media/3o7aD6v7pOTzXn7oT6/giphy.gif)
 
 ### <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
 
@@ -29,13 +28,9 @@
 
 ---
 
-### <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif' width='25' /> My Github Stats:
+### <img src='https://media1.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif' width='25' /> My GitHub Journey
 
-![Omar's github stats](https://github-readme-stats.vercel.app/api?username=omar\&show_icons=true\&title_color=ffc857\&icon_color=8ac926\&text_color=daf7dc\&bg_color=151515\&hide=issues\&count_private=true\&include_all_commits=true)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=omar\&layout=compact\&text_color=daf7dc\&bg_color=151515)]()
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=omar\&theme=dark)](https://git.io/streak-stats)
+I'm just starting my GitHub journey — exploring, learning, and building my foundations in Python, C++, and Data Science. More projects coming soon! 🚀
 
 ---
 
@@ -43,8 +38,8 @@
 
 ---
 
-### <img src = "https://media1.giphy.com/media/JZ40cnfnN11KycrvMF/giphy.gif" width = '23' /> Latest Progress
+### 🌟 Fun GIF Section
 
-I'm new to GitHub and currently building my first real projects!
-Learning every day and improving my skills in Python, C++, Data Science, and algorithms.
-More updates and projects coming soon 🚀
+<img src="https://media.giphy.com/media/xT0GqeSlGSRQutjYtO/giphy.gif" width="500" />
+
+Thanks for visiting my profile! 😄
