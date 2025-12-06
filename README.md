@@ -10,7 +10,7 @@
 ### <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
 
 * 🎓 I'm **Omar Rashad**, a **2nd-year Data Science student**
-* 🐍 Skilled in **Python**, **C++**, and **Object-Oriented Programming**
+* 🐍 Skilled in **Python**, **C++**
 * 💻 I use daily: **Python**, **C++**, **SQL**, **Jupyter Notebook**
 * 📊 Interested in Machine Learning, Algorithms, and Backend Logic
 * 🎮 I enjoy gaming, coding challenges, and exploring tech
