@@ -22,6 +22,7 @@ I build things in C++ and Python, work on AI data annotation, and speak Arabic a
 | [Socket Programming](https://github.com/fightinamigo/cpp-socket-programming) | TCP & UDP client-server implementations (DNS + password cracker) | C++, Winsock2 |
 | [DSA Library](https://github.com/fightinamigo/cpp-data-structure) | Complete data structures & algorithms from scratch | C++ |
 | [Smart Waste Management](https://github.com/fightinamigo/Smart-Waste-Management-System) | IoT-inspired waste bin monitoring system (team project) | C++ |
+| [Merkelrex](https://github.com/fightinamigo/Merkelrex) | A fully functional cryptocurrency exchange platform | C++ | 
 
 ---
 
