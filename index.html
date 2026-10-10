@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Omar Rashad | Data Science Portfolio</title>
+<style>
+:root{--bg:#EEF2F5;--surface:#FFFFFF;--ink:#14213D;--muted:#52607A;--line:#C9D3DD;--accent:#1F7A4D;--hot:#C2410C;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1A2B;--surface:#15233A;--ink:#E8EEF5;--muted:#9FB0C6;--line:#263A55;--accent:#4CC38A;--hot:#FB923C}}
+:root[data-theme="dark"]{--bg:#0F1A2B;--surface:#15233A;--ink:#E8EEF5;--muted:#9FB0C6;--line:#263A55;--accent:#4CC38A;--hot:#FB923C}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 "Public Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+a{color:var(--accent);text-underline-offset:3px}
+a:focus-visible{outline:3px solid var(--hot);outline-offset:3px;border-radius:3px}
+.wrap{max-width:980px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;line-height:1.1;margin:0}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:16px;flex-wrap:wrap}
+nav strong{font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:1.15rem}
+nav div{display:flex;gap:20px;flex-wrap:wrap}
+nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--ink)}
+.hero{display:grid;grid-template-columns:1.1fr 1fr;gap:40px;align-items:center;padding:48px 0 72px}
+.hero h1{font-size:clamp(2.2rem,5vw,3.6rem);letter-spacing:-.02em;font-weight:800}
+.hero p{color:var(--muted);max-width:46ch;margin:20px 0 28px}
+.btns{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;padding:11px 20px;border-radius:8px;font-weight:600;text-decoration:none;border:2px solid var(--ink);color:var(--ink)}
+.btn.main{background:var(--ink);color:var(--bg)}
+.pitch{width:100%;height:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.pitch .ln{fill:none;stroke:var(--line);stroke-width:2}
+.pitch .d1{fill:var(--surface);stroke:var(--ink);stroke-width:1.5}
+.pitch .d2{fill:var(--hot);stroke:var(--ink);stroke-width:1.5;opacity:.85}
+.cap{font-size:.85rem;color:var(--muted);margin-top:8px}
+section{padding:56px 0;border-top:1px solid var(--line)}
+section>.wrap>h2{font-size:1.9rem;margin-bottom:28px}
+.proj{display:grid;grid-template-columns:230px 1fr;gap:8px 32px;padding:18px 0;border-bottom:1px solid var(--line)}
+.proj:last-child{border-bottom:0}
+.proj h3{font-size:1.15rem}
+.proj .meta{color:var(--muted);font-size:.9rem;margin-top:4px}
+.proj p{margin:0 0 6px}
+.row{margin-bottom:26px}
+.row h3{font-size:1.15rem}
+.row .meta{color:var(--muted);font-size:.92rem;margin:2px 0 8px}
+.row p{margin:0;max-width:68ch}
+ul.tags{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:8px}
+ul.tags li{border:1px solid var(--line);background:var(--surface);padding:5px 12px;border-radius:999px;font-size:.92rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.two h3{margin-bottom:14px;font-size:1.15rem}
+.two ul{margin:0;padding-left:18px}
+.two li{margin-bottom:8px}
+footer{border-top:1px solid var(--line);padding:36px 0 48px;color:var(--muted)}
+@media (max-width:760px){.hero,.two{grid-template-columns:1fr}.proj{grid-template-columns:1fr}.hero{padding-top:24px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><strong>Omar Rashad Hassan</strong><div><a href="#projects">Projects</a><a href="#experience">Experience</a><a href="#learning">Education</a><a href="#skills">Skills</a></div></nav>
+
+<header class="hero">
+<div>
+<h1>Data science student who builds with data, code and AI.</h1>
+<p>I study Data Science at Cairo University (Faculty of Computers and Artificial Intelligence, graduating 2028). I work with Python, SQL and C++, evaluate AI models, and build projects in data analysis, databases and software.</p>
+<div class="btns"><a class="btn main" href="https://github.com/fightinamigo/ucl-final-2018-match-analysis">See my latest project</a><a class="btn" href="https://github.com/fightinamigo">GitHub profile</a></div>
+</div>
+<figure style="margin:0">
+<svg class="pitch" viewBox="0 0 400 270" role="img" aria-label="Shot map in the style of my 2018 Champions League final analysis: dots sized by chance quality near a goal">
+<rect class="ln" x="10" y="10" width="380" height="250"/>
+<rect class="ln" x="230" y="55" width="160" height="160"/>
+<rect class="ln" x="330" y="95" width="60" height="80"/>
+<path class="ln" d="M230 105 A45 45 0 0 0 230 165"/>
+<rect class="ln" x="390" y="115" width="6" height="40"/>
+<circle class="d1" cx="300" cy="120" r="7"/><circle class="d1" cx="275" cy="150" r="14"/><circle class="d1" cx="320" cy="170" r="5"/><circle class="d1" cx="255" cy="95" r="4"/><circle class="d1" cx="305" cy="85" r="6"/><circle class="d1" cx="215" cy="130" r="3"/>
+<circle class="d2" cx="352" cy="130" r="20"/><circle class="d2" cx="340" cy="105" r="10"/><circle class="d2" cx="288" cy="132" r="5"/><circle class="d2" cx="262" cy="180" r="4"/><circle class="d2" cx="245" cy="112" r="6"/><circle class="d2" cx="320" cy="195" r="3"/>
+</svg>
+<figcaption class="cap">Shot map style from my 2018 Champions League final analysis. Bigger dots are better chances.</figcaption>
+</figure>
+</header>
+</div>
+
+<section id="projects"><div class="wrap">
+<h2>Projects</h2>
+<div class="proj"><div><h3>2018 UCL final analysis</h3><div class="meta">Python, pandas, mplsoccer</div></div><div><p>Match report on Real Madrid 3-1 Liverpool using StatsBomb open data: shot and xG summary, xG shot map, a pass map for Toni Kroos, and a short conclusion on why Madrid won.</p><a href="https://github.com/fightinamigo/ucl-final-2018-match-analysis">View on GitHub</a></div></div>
+<div class="proj"><div><h3>Sports car market dashboard</h3><div class="meta">Excel, team project</div></div><div><p>Interactive dashboard for a dealership manager built on a Kaggle dataset of 1,007 sports car models from 2019 to 2023.</p><a href="https://github.com/fightinamigo/sportcar-data-analysis">View on GitHub</a></div></div>
+<div class="proj"><div><h3>Beauty and wellness database</h3><div class="meta">SQL, team of 6</div></div><div><p>Relational database for a luxury spa network, with a physical data model and SQL implementation. Built for the Introduction to Databases course.</p><a href="https://github.com/fightinamigo/beauty-wellness-db">View on GitHub</a></div></div>
+<div class="proj"><div><h3>MerkelRex exchange</h3><div class="meta">C++, University of London on Coursera</div></div><div><p>Cryptocurrency exchange with an order book, an order-matching engine, a wallet system and parsing of real historical trading data.</p><a href="https://github.com/fightinamigo/Merkelrex">View on GitHub</a></div></div>
+<div class="proj"><div><h3>Data structures from scratch</h3><div class="meta">C++</div></div><div><p>Linked lists and other core data structures and algorithms written without STL containers, with edge cases handled and commented.</p><a href="https://github.com/fightinamigo/cpp-data-structure">View on GitHub</a></div></div>
+<div class="proj"><div><h3>Smart waste management system</h3><div class="meta">C++, team project</div></div><div><p>Simulation of a smart city: bins with fill-level sensors, citizen complaints, role-based users and collection routing.</p><a href="https://github.com/fightinamigo/Smart-Waste-Management-System">View on GitHub</a></div></div>
+<div class="proj"><div><h3>Elmenus clone</h3><div class="meta">C++, object-oriented design</div></div><div><p>Food delivery backend with customers, drivers, order tracking from pending to delivered, and a loyalty points system.</p><a href="https://github.com/fightinamigo/cpp-elmenus-clone">View on GitHub</a></div></div>
+<div class="proj"><div><h3>Socket programming</h3><div class="meta">C++, Winsock2</div></div><div><p>A UDP DNS resolver and a TCP password cracker simulator, written as client-server programs.</p><a href="https://github.com/fightinamigo/cpp-socket-programming">View on GitHub</a></div></div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Experience</h2>
+<div class="row"><h3>AI/LLM evaluator, Outlier AI</h3><div class="meta">Remote</div><p>Evaluate AI model responses on the Aether and OpenClaw Atlas projects.</p></div>
+
+<div class="row"><h3>Operations administrator, Emaar Marassi Resort</h3><div class="meta">One-month role</div><p>Supervised ushers and managed operational reports: tracked attendance for about 86 ushers, wrote incident and maintenance reports, and cleaned gate access logs.</p></div>
+</div></section>
+
+<section id="learning"><div class="wrap">
+<h2>Education and certificates</h2>
+<div class="two">
+<div><h3>Education</h3><ul><li>B.Sc. Data Science, Cairo University, Faculty of Computers and Artificial Intelligence. Expected 2028.</li></ul></div>
+<div><h3>Certificates</h3><ul><li>Object-Oriented Programming Specialization, University of London and Goldsmiths (Coursera)</li><li>Microsoft Power BI Desktop for Business Intelligence, Maven Analytics (Udemy, 17 hours)</li><li>Data Structures and Algorithms (Udemy)</li></ul></div>
+</div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Skills</h2>
+<ul class="tags"><li>Python</li><li>pandas</li><li>matplotlib</li><li>mplsoccer</li><li>SQL</li><li>C++</li><li>Excel</li><li>Power BI</li><li>Git and GitHub</li><li>Arabic (native)</li><li>English (C1)</li></ul>
+</div></section>
+
+<footer><div class="wrap">Contact: <a href="mailto:orashad661@gmail.com">orashad661@gmail.com</a> | <a href="https://linkedin.com/in/omar-rashad-457630358">LinkedIn</a> | <a href="https://github.com/fightinamigo">GitHub</a></div></footer>
+</body>
+</html>
