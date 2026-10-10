@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Omar Rashad | Data Scientist</title>
+<meta name="description" content="Omar Rashad is a Data Science student at Cairo University building with Python, SQL and C++, evaluating AI models and analysing football data.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E%E2%9A%BD%3C/text%3E%3C/svg%3E"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="nav"><div class="w"><a class="logo" href="#top">Omar Rashad</a>
+<nav class="links" aria-label="Sections"><a href="#about">About</a><a href="#projects">Projects</a><a href="#play">Play</a><a href="#skills">Skills</a><a href="#journey">Journey</a><a href="#certs">Certificates</a><a href="#contact">Contact</a></nav>
+<button class="btn sm" id="th" type="button" aria-label="Switch light or dark theme">Theme</button><a class="btn g sm cv" href="assets/Omar_Rashad_Resume.pdf" download="Omar_Rashad_Resume.pdf">Download CV</a></div></header>
+
+<main id="top"><div class="w">
+<div class="hero"><div>
+<div class="kick">Cairo, Egypt &middot; Class of 2028</div>
+<h1>Hi, I'm Omar Rashad.</h1>
+<div class="role" id="role">Data Scientist</div>
+<p class="lead">I study Data Science at Cairo University. I build with Python, SQL and C++, evaluate AI models for a living, and turn football data into stories you can read at a glance.</p>
+<div class="row"><a class="btn g" href="#projects">View projects</a><a class="btn cv" href="assets/Omar_Rashad_Resume.pdf" download="Omar_Rashad_Resume.pdf">Download CV</a><a class="btn" href="#contact">Get in touch</a></div>
+<div class="row soc" style="margin-top:18px"><a href="https://github.com/fightinamigo" aria-label="GitHub">Git</a><a href="https://linkedin.com/in/omar-rashad-457630358" aria-label="LinkedIn">in</a><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=orashad661@gmail.com&amp;su=Hello%20Omar" target="_blank" rel="noopener" aria-label="Email">@</a></div></div>
+<div class="photo"><img src="assets/photo.webp" alt="Omar Rashad" width="720" height="960">
+<span class="chip" style="top:10%;left:-6%;animation-delay:.3s">Python</span><span class="chip" style="top:42%;right:-5%;animation-delay:.5s">SQL</span><span class="chip" style="bottom:10%;left:-4%;animation-delay:.7s">C++</span></div></div>
+<div class="stats">
+<div class="stat"><b data-n="8" data-s="">0</b><span>projects built</span></div>
+<div class="stat"><b data-n="2" data-s="">0</b><span>languages, Arabic and English</span></div>
+<div class="stat"><b data-n="1000" data-s="+">0</b><span>cars analysed in one dashboard</span></div>
+<div class="stat"><b data-n="100" data-s="+">0</b><span>AI responses reviewed weekly</span></div></div></div>
+
+<section id="about"><div class="w"><h2>About me</h2><p class="sub">The short version of who I am and what I care about.</p>
+<div class="about"><div>
+<p>I'm Omar, a Data Science student at Cairo University's Faculty of Computers and Artificial Intelligence, graduating in 2028. I like understanding how things work under the hood, which is why I've built a crypto exchange simulator and a data structures library in C++, designed a spa network database in SQL, and now turn match data into charts.</p>
+<p>Alongside my studies I work remotely evaluating AI model responses, which keeps me careful about accuracy and clear guidelines. I speak Arabic natively and English fluently, and I'm looking for a data or sports-data internship where I can learn from a team and work on real problems.</p></div>
+<div class="tiles">
+<div class="tile"><b>Football</b><span>I turn football data into charts and stories: shot maps, xG and passing maps that show how a match was really played.</span></div>
+<div class="tile"><b>Film</b><span>Watching the best movie from every country, one at a time.</span></div>
+<div class="tile" style="grid-column:1/-1"><b>Languages</b><span>Arabic (native), English (C1).</span></div>
+<div class="tile wide"><b>Travel is my other classroom</b><span>I want to see how other people live, work and think. Travelling and volunteering abroad is how I plan to learn what no lecture can teach: other cultures, other ways of solving problems, and who I become when everything is unfamiliar.</span></div></div></div></div></section>
+
+<section id="projects"><div class="w"><h2>Projects</h2><p class="sub">Eight projects across analytics, databases and software. Filter them, and hover a card to see its drawing move.</p>
+<div class="chips" id="chips" role="group" aria-label="Filter projects"></div><div class="grid" id="grid"></div></div></section>
+
+<section id="play"><div class="w"><h2>Play corner</h2><p class="sub">Three tiny games, each one tied to something I built. Pick one and try it.</p>
+<div class="chips" id="pt" role="group" aria-label="Choose a game"><button type="button" aria-pressed="true" data-p="xg">Shot lab</button><button type="button" aria-pressed="false" data-p="sort">Sorting race</button><button type="button" aria-pressed="false" data-p="bins">Smart bins</button></div>
+
+<div class="pb" id="p-xg"><p style="margin:0 0 12px;opacity:.9">From my football analytics project. Move over the pitch and tap to take shots at the goal at the top. The number is expected goals (xG), estimated from distance and angle by my own simple model, not StatsBomb's.</p>
+<svg id="pitch" viewBox="0 0 80 60" role="img" aria-label="Half pitch seen from above, goal at the top. Tap to take a shot and see its expected goals value."><rect x=".3" y=".3" width="79.4" height="59.4" stroke="#EDF0FF" stroke-opacity=".5" stroke-width=".4" fill="none"/><rect x="18" y=".3" width="44" height="18" stroke="#EDF0FF" stroke-opacity=".5" stroke-width=".4" fill="none"/><rect x="30" y=".3" width="20" height="6" stroke="#EDF0FF" stroke-opacity=".5" stroke-width=".4" fill="none"/><circle cx="40" cy="60" r="10" stroke="#EDF0FF" stroke-opacity=".5" stroke-width=".4" fill="none"/><circle cx="40" cy="12" r=".5" fill="#EDF0FF"/><line x1="36" y1=".5" x2="44" y2=".5" stroke="#FFD166" stroke-width="1.2"/><g id="shots"></g><circle id="ghost" r="1.4" fill="#3DD9F0" fill-opacity=".6" display="none"/></svg>
+<div class="read"><div><b id="here">0.00</b><small>xG at your cursor</small></div><div><b id="n">0</b><small>shots taken</small></div><div><b id="tot">0.00</b><small>total xG</small></div><button class="btn" id="reset" type="button">Reset</button></div>
+<p style="margin:12px 0 0;opacity:.85;font-size:.92rem">For scale: in the 2018 final, Real Madrid created 1.68 xG and Liverpool 1.43.</p></div>
+
+<div class="pb" id="p-sort" hidden><p style="margin:0 0 12px;opacity:.9">From my data structures library. Pick an algorithm and watch it sort. Gold bars are being compared.</p>
+<div class="bars" id="bars"></div>
+<div class="read"><select id="algo" aria-label="Algorithm"><option value="bubble">Bubble sort</option><option value="select">Selection sort</option><option value="insert">Insertion sort</option><option value="quick">Quick sort</option></select><button class="btn" id="shuf" type="button">Shuffle</button><button class="btn" id="go" type="button">Sort</button><div><b id="cmp">0</b><small>comparisons</small></div><div><b id="swp">0</b><small>swaps</small></div></div></div>
+
+<div class="pb" id="p-bins" hidden><p style="margin:0 0 12px;opacity:.9">From my smart waste management system. Bins fill up on their own. Dispatch a driver before they overflow.</p>
+<div class="bins" id="bn"></div>
+<div class="read"><button class="btn" id="bdisp" type="button">Dispatch driver</button><div><b id="bal">0</b><small>bins about to overflow</small></div><div><b id="bcol">0</b><small>bins collected</small></div><span id="bmsg" role="status"></span></div></div>
+</div></section>
+
+<section id="skills"><div class="w"><h2>Skills</h2><p class="sub">What I work with, and how comfortable I am with each.</p><div class="sk" id="sk"></div></div></section>
+
+<section id="journey"><div class="w"><h2>Journey so far</h2><p class="sub">Where I started and where I'm heading.</p>
+<ol class="tl"><li><b>2024: Started Data Science</b><span>Cairo University, Faculty of Computers and Artificial Intelligence.</span></li><li><b>2024: Began evaluating AI models</b><span>Remote AI/LLM evaluator with Outlier AI.</span></li><li><b>Along the way: team projects</b><span>C++, SQL and Excel projects built with classmates.</span></li><li><b>Jul 2026: Operations administrator</b><span>Attendance tracking and reports for about 86 ushers at Emaar Marassi Resort.</span></li><li><b>Sep 2026: Power BI course</b><span>Finished a 17-hour Power BI Desktop course.</span></li><li><b>Oct 2026: First football analytics project</b><span>Match report on the 2018 Champions League final.</span></li><li><b>Next: internship, then graduation in 2028</b><span>Looking for a data or sports-data team to learn from.</span></li></ol></div></section>
+
+<section id="certs"><div class="w"><h2>Certificates</h2><p class="sub">Full-time whistle blown on these courses.</p><div class="certs">
+<a class="cert" href="https://www.coursera.org/account/accomplishments/records/UB8CIDMMJZOV" target="_blank" rel="noopener"><i>ADMIT ONE</i><div><b>Object-Oriented Programming Specialization</b><span>University of London and Goldsmiths, Coursera. 5 courses.</span><em>View certificate &#8599;</em></div></a>
+<a class="cert" href="https://ude.my/UC-37a57f8b-0ea8-4b50-b6b7-0cea877a9b14" target="_blank" rel="noopener"><i>ADMIT ONE</i><div><b>Microsoft Power BI Desktop for Business Intelligence</b><span>Maven Analytics, Udemy. 17 hours.</span><em>View certificate &#8599;</em></div></a>
+<a class="cert" href="https://ude.my/UC-0718a809-d221-4ad5-836d-932ab4b84b4d" target="_blank" rel="noopener"><i>ADMIT ONE</i><div><b>Data Structures and Algorithms</b><span>Udemy.</span><em>View certificate &#8599;</em></div></a></div></div></section>
+
+<section id="contact"><div class="w"><div class="cta"><h2>Let's talk data</h2><p>Hiring for an internship, or just want to chat about football and data? My inbox is open.</p>
+<div class="row"><a class="btn g" id="em" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=orashad661@gmail.com&amp;su=Hello%20Omar" target="_blank" rel="noopener">Email me</a><button class="btn" id="cp" type="button">Copy email</button><a class="btn" href="https://linkedin.com/in/omar-rashad-457630358">LinkedIn</a><a class="btn" href="https://github.com/fightinamigo">GitHub</a></div>
+<small><span id="eml">orashad661@gmail.com</span> &middot; <a href="mailto:orashad661@gmail.com">open in your mail app instead</a></small></div></div></section>
+</main>
+<footer><div class="w">&copy; 2026 Omar Rashad. Built with curiosity and a lot of coffee.</div></footer>
+
+<script src="js/main.js" defer></script>
+</body>
+</html>
